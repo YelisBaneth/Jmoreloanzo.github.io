@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion datos de estudiantes</title>
+    <link rel="stylesheet" href="datosDeestudiantes.css">
+</head>
+<body>
+  <center>
+      <h1 class="Titulo1">Gestion datos de estudiantes</h1>
+      <hr>
+      <br>
+    <table border="3">
+    <th>Propiedad</th>
+    <th>Valor</th>
+<tbody>
+<tr>
+<td>Cedula</td>
+<td><input type="text" name="ced" id="ced"></td>
+</tr>
+<tr>
+    <td>Nombre</td>
+    <td><input type="text" name="nom" id="nom"></td>
+    </tr>
+    <tr>
+        <td>Apellidos</td>
+        <td><input type="text" name="ape" id="ape"></td>
+    </tr>
+    <tr>
+        <td>Nota 1</td>
+        <td><input type="text" name="n1" id="n1"></td>
+    </tr>
+    <tr>
+        <td>Nota 2</td>
+        <td><input type="text" name="n2" id="n2"></td>
+    </tr>
+    <tr>
+        <td>Nota 3</td>
+        <td><input type="text" name="n3" id="n3"></td>
+    </tr>
+</tbody>
+    </table>
+    <table border="3">
+        <tr>
+            <td>
+             <button id="agr" onclick="agregar()">Agregar</button>
+            <button id="act">Actualizar</button>
+            </td>
+           
+        </tr>
+    </table>
+    <br>
+    <h2>LISTADOS DE ESTUDIANTES</h2>
+    <table border="3">
+        <th>Cedula</th>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Nota final</th>
+        <th>Acciones</th>
+        <tbody id="Cuerpo"></tbody>
+    </table>
+    </center>
+    <script src="datosDeestudiantes.js"></script>
+    <body>
+        
+    </body>

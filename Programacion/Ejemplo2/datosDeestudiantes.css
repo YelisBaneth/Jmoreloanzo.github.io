@@ -1,0 +1,11 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(104, 104, 153, 0.644);
+}
+
+.Titulo1 {color: rgba(119, 112, 19, 0.986);}
+tbody{color: rgba(128, 124, 62, 0.959);}
+h2{color: rgba(128, 124, 62, 0.952);}
